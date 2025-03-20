@@ -9,45 +9,12 @@ body {
   padding: 0;
 }
 
-.float-left {
-  float: left;
-}
-
-.fixed-right {
-  position: fixed;
-  top: 20px;
-  right: 10px;
-}
-
-h1 {
-  color: #336;
-  font-size: 24pt;
-}
-
-h2 {
-  color: #336;
-  font-size: 16pt;
-  margin: 30px 0px 10px 0px;
-  padding: 10px 0px 10px 0px;
-  border-bottom: 1px solid #99c;
-}
-
-h3 {
-  color: #336;
-  font-size: 12pt;
-}
-
-.two-column {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  column-count: 2;
-}
-
 #header {
   background-image: url("assets/Dare_UK_D_RGB_45x45.png");
   background-position: top right;
   background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
   min-height: 50px;
 }
 
@@ -60,7 +27,7 @@ h3 {
   background-position: 0px 10px;
   background-repeat: no-repeat;
   min-height: 60px; 
-  border-top: 1px solid #336;
+  border-top: 1px solid #99c;
   margin: 60px 0px 40px 0px;
   padding: 0px 0px 0px 60px;
   font-size: smaller;
@@ -72,3 +39,46 @@ h3 {
 }
 
 
+h1 {
+  color: #336;
+  font-size: 24pt;
+}
+
+h2 {
+  color: #336;
+  font-size: 16pt;
+  margin: 10px 0px 10px 0px;
+  padding: 0px 0px 10px 0px;
+  border-bottom: 1px solid #99c;
+}
+
+h3 {
+  color: #336;
+  font-size: 12pt;
+}
+
+
+.float-left {
+  float: left;
+}
+
+.fixed-right {
+  position: fixed;
+  top: 20px;
+  right: 10px;
+}
+
+.two-column {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  column-count: 2;
+}
+
+.tile {
+  margin: 20px 0px 0px 0px;
+  padding: 10px 20px 20px 20px;
+  border: 1px solid #99c;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px #669;
+}

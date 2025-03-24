@@ -10,7 +10,7 @@ body {
 }
 
 #header {
-  background-image: url("assets/Dare_UK_D_RGB_45x45.png");
+  background-image: url("assets/Dare_UK_D_dark_45x45.jpg");
   background-position: top right;
   background-repeat: no-repeat;
   margin: 0;
@@ -23,7 +23,7 @@ body {
 }
 
 #footer {
-  background-image: url("assets/Dare_UK_D_RGB_45x45.png");
+  background-image: url("assets/Dare_UK_D_dark_45x45.jpg");
   background-position: 0px 10px;
   background-repeat: no-repeat;
   min-height: 60px; 

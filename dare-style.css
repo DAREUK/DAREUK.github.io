@@ -3,14 +3,15 @@ body {
   background-position: bottom right;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: #fff;
   font-family: "Lato Light", "Lato", sans-serif;
-  color: #333;
+  color: #336;
   margin: 0 2% 10px 2%;
   padding: 0;
 }
 
 #header {
-  background-image: url("assets/Dare_UK_D_dark_45x45.jpg");
+  background-image: url("assets/Dare_UK_D_RGB_45x45.jpg");
   background-position: top right;
   background-repeat: no-repeat;
   margin: 0;
